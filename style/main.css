@@ -1,0 +1,108 @@
+/*reser da pagina*/
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 3px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*principal*/
+.manga-principal .container{
+    margin: 1%;
+    width: 70%;
+}
+
+.manga-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../img/onepiece1.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.descricao{
+    margin-bottom: 20px;
+}
+
+.titulo{
+    margin-top: 22%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 2s ease all;
+}
+
+.botao:hover{
+    background: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+/*carrosel*/
+.carrosel .titulo{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: 'Arial Black';
+    font-size: 20px;
+    color: #E50914;
+}
+
+
